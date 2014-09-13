@@ -1,0 +1,8 @@
+# This is a base template for a Fedora Docker file.
+# Copy this file to your project folder as Dockerfile
+# Replace the FROM with the image you wish to start from
+# Change REFRESHED_AT to the date you are modifying the file
+FROM fedora:20
+MAINTAINER Mick England "england.mick@gmail.com"
+ENV REFRESHED_AT 2014-09-13
+RUN yum -y -q upgrade
